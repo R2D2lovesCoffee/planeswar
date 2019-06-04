@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="http://localhost:5000/css/all.css">
+    <link rel="stylesheet" href="http://localhost:5000/css/play.css">
+    <title>Play</title>
+</head>
+<body>
+    <div class="title">
+        <div id="title-first">PICK YOUR OPPONENT</div>
+        <div id="title-second">YOUR CODE IS <span id="code"></span></div>
+    </div>
+    <div class="box">
+        <div class="card" id="left">
+            <div id="first-icon" class="icon"></div>
+            <div id="first-label" class="label">INVITE A FRIEND</div>
+            <p>Find your friend based on his personal code and fight against him!</p>
+            <input placeholder="Code">
+            <div id="first-button" class="button">INVITE FRIEND</div>
+        </div>
+        <div class="card" id="middle">
+            <div id="top">
+                <div id="left-side">
+                    <div id="second-icon" class="icon"></div>
+                </div>
+                <div id="right-side">
+                    <div id="second-label" class="label">ACTIVE PLAYERS</div>
+                    <p>Play against one of the online players!</p>
+                </div>
+            </div>
+            <div id="bottom">
+                <ul>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="card" id="right">
+            <div id="third-icon" class="icon"></div>
+            <div id="third-label" class="label">USE OUR ROBOT</div>
+            <p>Play against the computer and prove us robots are not going to dominate the world!</p>
+            <div id="second-button" class="button">PLAY AGAINST ROBOT</div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="http://localhost:5000/javascript/scripts/play.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+#timer{
+    font-size: 24px;
+    color:#b9771c;
+}
+.header{
+    font-size: 24px;
+    padding:30px;
+    background-color: rgba(0,0,0,0.7);
+}
+.box{
+    width:80%;
+}
+.card{
+    float:left;
+    width:50%;
+}
+#left{
+    border-right: 2px solid rgba(0,0,0,0.2);
+}
+canvas{
+    width:100%;
+}
+.board{
+    margin:auto;
+    width:50%;
+    padding:50px 0;    
+}
+.mmr{
+    float:right;
+}
+
+.rotate90{
+    transform:rotate(90deg);
+    -webkit-transform: rotate(90deg)
+}
+.rotate180{
+    transform:rotate(180deg);
+    -webkit-transform: rotate(180deg)
+}
+.rotate270{
+    transform:rotate(270deg);
+    -webkit-transform: rotate(270deg)
+}
+
+#img-plane{
+    overflow: auto;
+    width:200px;
+    height:200px;
+    background-image: url('http://localhost:5000/images/plane.jpeg');
+    margin-left: 25%;
+    float:left;
+}
+#img-plane:hover{
+    cursor: pointer;
+}
+canvas:hover{
+    cursor: pointer;
+}

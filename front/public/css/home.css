@@ -1,0 +1,111 @@
+h2{
+    padding:30px;
+}
+p{
+    font-size: 20px;
+}
+body{
+    font-size: 26px;
+}
+.box{
+    width:80%;
+    margin:auto;
+    background-color:rgba(0, 0, 0, 0.6);
+    overflow: auto;
+}
+
+
+#profile{
+    margin-left: 30px;
+    padding:30px;
+    background-color: rgba(255, 255, 255, 0.15);
+    overflow: auto;
+}
+#avatar{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    background-image:url('http://localhost:5000/images/avatar.png');
+    float:left;
+}
+#info{
+    float:left;
+    padding-left: 30px;
+}
+#mmr-value{
+    color:#f5dc1b;
+}
+#winstreak-value{
+    color:#f5dc1b;
+}
+#play{
+    margin-left: 30px;
+    padding:30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 100px;
+}
+
+.button{
+    padding:22px;
+    width:50%;
+    text-align: center;
+    background-color: #b9771c;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+
+#left{
+    width:60%;
+    float:left;
+    padding-left: 30px;     
+}
+#right{
+    width:40%;
+    float:left;
+    border-left: 1px solid #707070;
+}
+#mmr1{
+    float:right;
+}
+#mmr2{
+    float:right;
+}
+#mmr3{
+    float:right;
+}
+#mmr4{
+    float:right;
+}
+#mmr5{
+    float:right;
+}
+.player{
+    padding:30px;
+    border:1px solid #707070;
+}
+
+.pos{
+    width:36px;
+    height:32px;
+    border-radius: 50%;
+    display:inline-block;
+    text-align: center;
+}
+#first{
+    background-color: #f5dc1b;
+}
+#second{
+    background-color: #9ca9ac;
+}
+#third{
+    background-color: #d0981b;
+}
+#fourth{
+    background-color:rgba(0,0,0,0.15);
+}
+#fifth{
+    background-color: rgba(0,0,0,0.15);
+}

@@ -1,0 +1,58 @@
+
+.title{
+    width:16%;
+    margin:auto;
+    background-color: #303030;
+    border:2px #44462b;
+    text-align: center;
+    color:#b9771c;
+    padding:10px 20px;
+}
+.box{
+    width:36.5%;
+    margin:auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding:62px;
+}
+input{
+    color:#f1f1f1;
+    width:90%;
+    margin:auto;
+    display:block;
+    background-color: black;
+    font-size: 36px;
+    margin-bottom: 36px;
+}
+.button{
+    padding:22px;
+    width:90%;
+    margin:auto;
+    text-align: center;
+    background-color: #b9771c;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+#auth:hover{
+    cursor:pointer;
+}
+#auth{
+    color:rgba(255, 255, 255, 0.5);
+}
+#register:hover{
+    cursor:pointer;
+}
+
+#auth{
+    float:left
+}
+#register{
+    float:right;
+}
+.message{
+    width:20%;
+    margin:auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}

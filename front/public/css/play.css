@@ -1,0 +1,111 @@
+
+#title-first{
+    font-size: 30px;
+}
+#title-second{
+    font-size: 24px;
+    color:rgba(255,255,255,0.5);
+}
+#code{
+    color:#b9771c;
+}
+.box{
+    width:88%;
+}
+.card{
+    float:left;
+    width:33.33%;
+    padding:90px 50px;
+}
+/* left */
+#first-icon{
+    margin:auto;
+    width:200px;
+    height:200px;
+    background-image: url('http://localhost:5000/images/ic_invite_friend.svg');
+}
+#first-label{
+    margin-top: 50px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+input{
+    width:90%;
+    margin:auto;
+}
+.button{
+    margin:auto;
+    width:90%;
+    padding:12px 0px;
+    margin-top: 17px;
+}
+
+
+/* middle */
+#top{
+    overflow:auto;
+}
+#bottom{
+    overflow:auto;
+}
+#left-side{
+    float:left;
+    width:30%;
+}
+#right-side{
+    float:left;
+    width:70%;
+}
+#second-icon{
+    width:100px;
+    height:100px;
+    background-image: url('http://localhost:5000/images/ic_active_players.svg');
+}
+#second-label{
+    text-align: center;
+    margin:auto;
+}
+ul{
+    height:400px;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+li{
+    background-color: black;
+    border:1px solid rgba(255,255,255,0.5);
+    padding:17px 30px;
+    font-size: 20px;
+}
+li:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.5);
+}
+#nickname{
+    float:left;
+}
+#mmr{
+    float:right;
+}
+
+::-webkit-scrollbar{
+    background-color: #272727;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #b9771c;
+}
+
+
+/* right */
+#third-icon{
+    margin:auto;
+    width:200px;
+    height:200px;
+    background-image: url('http://localhost:5000/images/ic_robot.svg');
+}
+#third-label{
+    margin-top: 50px;
+    text-align: center;
+}

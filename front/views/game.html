@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="http://localhost:5000/css/all.css">
+    <link rel="stylesheet" href="http://localhost:5000/css/game.css">
+    <title>Game</title>
+</head>
+<body>
+    <div class="title">
+        <div id="message">message</div>
+        <div id="timer">20</div>
+    </div>
+    <div class="box">
+        <div class="card" id="left">
+            <div class="header">
+                <span id="avatar-1"></span>
+                <span id="nickname-1">test</span>
+                <span class="mmr" id="mmr-1">mmr:</span>
+            </div>
+            <div class="board">
+                <canvas id="canvas-1"></canvas>
+            </div>
+
+            <div class="rotate180" id="img-plane">
+                
+            </div>
+            <button id="btn-rotate">rotate</button>
+            <button id="btn-reset">reset</button>
+            <button id="btn-ready">ready</button>
+        </div>
+        <div class="card" id="right">
+            <div class="header">
+                <span id="avatar-2"></span>
+                <span id="nickname-2">test</span>
+                <span class="mmr" id="mmr-2">mmr:</span>
+            </div>
+            <div class="board">
+                <canvas id="canvas-2"></canvas>
+            </div>
+            <div class="footer">
+            </div>
+        </div>
+    </div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="http://localhost:5000/javascript/scripts/game.js"></script>
+</body>
+</html>

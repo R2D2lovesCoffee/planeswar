@@ -1,0 +1,48 @@
+
+.title{
+    width:16%;
+    margin:auto;
+    background-color: #303030;
+    border:2px #44462b;
+    text-align: center;
+    color:#b9771c;
+    padding:10px 20px;
+}
+.box{
+    width:36.5%;
+    padding:62px;
+}
+input{
+    width:90%;
+    margin:auto;
+    margin-bottom: 36px;
+}
+.button{
+    padding:22px;
+    width:90%;
+    margin:auto;
+}
+
+
+#auth:hover{
+    cursor:pointer;
+}
+#register{
+    color:rgba(255, 255, 255, 0.5);
+}
+#register:hover{
+    cursor:pointer;
+}
+
+#auth{
+    float:left
+}
+#register{
+    float:right;
+}
+.message{
+    width:20%;
+    margin:auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
