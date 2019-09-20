@@ -171,6 +171,7 @@ fetch(`${host}/players/me`)
         else{
             showMessage(`${opponent.nickname} won!`)
         }
+        state=100;
         canvas2.removeEventListener("mousemove",listenerMouseMove2);
         canvas2.removeEventListener("mouseover",listenerMouseOver2);
         for(let i =0;i<matrixOpp.length;i++){

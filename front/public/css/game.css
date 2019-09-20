@@ -46,7 +46,7 @@ canvas{
     overflow: auto;
     width:200px;
     height:200px;
-    background-image: url('http://localhost:5000/images/plane.jpeg');
+    background-image: url('../images/plane.jpeg');
     margin-left: 25%;
     float:left;
 }

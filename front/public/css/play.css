@@ -22,7 +22,7 @@
     margin:auto;
     width:200px;
     height:200px;
-    background-image: url('http://localhost:5000/images/ic_invite_friend.svg');
+    background-image: url('../images/ic_invite_friend.svg');
 }
 #first-label{
     margin-top: 50px;
@@ -61,7 +61,7 @@ input{
 #second-icon{
     width:100px;
     height:100px;
-    background-image: url('http://localhost:5000/images/ic_active_players.svg');
+    background-image: url('../images/ic_active_players.svg');
 }
 #second-label{
     text-align: center;
@@ -103,7 +103,7 @@ li:hover{
     margin:auto;
     width:200px;
     height:200px;
-    background-image: url('http://localhost:5000/images/ic_robot.svg');
+    background-image: url('../images/ic_robot.svg');
 }
 #third-label{
     margin-top: 50px;
